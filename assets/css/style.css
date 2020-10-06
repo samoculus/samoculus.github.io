@@ -1,0 +1,189 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'Roboto Mono', monospace;
+}
+
+html {
+    font: sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+body {
+    color: #ffffff;
+    background-color: #0B1937;
+}
+
+.main-header {
+    height: 85vh;
+    text-align: center;
+}
+
+.main-header button:hover{
+    transform: scale(1.1);
+}
+
+.nav-bar {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 200px;
+}
+
+.link-1 {
+    cursor: pointer;
+    outline: none;
+    height: 40px;
+    width: 40px;
+}
+
+.link-2 {
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.main-header h1{
+    font-size: 3rem;
+    font-family: var(--main-font);
+    color: #ffffff;
+    margin: 20px;
+    width: 100%;
+}
+
+.main-header h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.main-header hr{
+    width: 98%;
+    margin: auto;
+    padding: 1px;
+    background: #7D90FF;
+    border: none;
+}
+
+.container {
+    border: 5px solid rgba(146, 167, 233, 0.1);
+    border-left: 5px solid #7D90FF;
+    border-bottom: 5px solid #7D90FF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 95%;
+}
+
+.underline {
+    color: #7D90FF;
+    border-bottom: 5px solid #7D90FF;
+    display: inline;
+    padding-bottom: 0.5px;
+}
+
+.cont-img {
+    height: 25px;
+    width: 25px;
+}
+
+.work-button{
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    background: none;
+    border-color: #7D90FF;
+    border-width: 2px;
+    color: white;
+    border-radius: 10px;
+    width: 95%;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+}
+
+.contact-button {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    background: #7D90FF;
+    border-style: hidden;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+    width: 95%;
+    font-weight: bold;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */ 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #0B1937;
+    margin: auto;
+    border: none;
+    width: 25rem;
+    box-shadow: 0 3px 15px 0 #303030;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .close-modal {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: #7D90FF;
+    border-style: hidden;
+    color: white;
+    border-radius: 5px;
+    width: 75%;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+  }
+
+.extra-links {
+    color:	#ff69b4
+};
+
+.modal a:hover {
+    color: hotpink;
+  }
