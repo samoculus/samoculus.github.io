@@ -36,6 +36,15 @@ body {
     transform: scale(1.1);
 }
 
+.main-header a:hover {
+    transform: scale(1.2);
+}
+
+.main-header a {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 .nav-bar {
     margin: auto;
     display: flex;
